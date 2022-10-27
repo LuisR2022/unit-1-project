@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'lemon_milkregular';
+    src: url('lemon_milk/LEMONMILK-Regular.otf');
+}
+@font-face {
+    font-family: 'lemon_milkBold';
+    src: url('lemon_milk/LEMONMILK-Bold.otf');
+    }
+@font-face {
+    font-family: 'lemon_milkLight';
+    src: url('lemon_milk/LEMONMILK-Light.otf');
+    }
+.nav-link{
+    color: white;
+}
+.img3{
+    position: absolute;
+    z-index: 0;
+    width: 65%;
+}
+h1{
+    font-family:lemon_milkBold;
+    color: white;
+}
+h3{
+    font-family: lemon_milkregular;
+    color: white;
+}
+.xhespic{
+    z-index: 1;
+}
+.btn{
+    background-color: white;
+    border-radius: 0px;
+    height: 45px;
+    width: 157px;
+    color: red;
+}
+.behind-button{
+    border: 1px solid white;
+    height: 45px;
+    width: 157px;
+    position: relative;
+    top: -40px;
+    right: -5px;
+}
+.part2{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: space-evenly;
+}
+.causes{
+    width:60%;
+    align-self: center;
+}
+article{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.num{
+    width: 15%;
+    margin-right: 10%;
+}
+span{
+    display: flex;
+}
+.causestitle{
+    margin: 10%;
+}
+p{
+    color: white;
+   font-family: lemon_milkLight;
+}
+
+.chart{
+    background-color: white;
+    width: 100%;
+   
+}
+
+.red-text{
+    color:red;
+}
+
+.piechart{
+    width: 35%;
+}
+
+.bullet{
+    width: 0.8em;
+    margin: 2em;
+}
+
+.bulletpoints{
+    display: flex;
+    justify-content: space-between;
+}
+
+.chartheading{
+    display: flex;
+    flex-direction: column;
+}
