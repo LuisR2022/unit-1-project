@@ -11,8 +11,11 @@
     src: url('lemon_milk/LEMONMILK-Light.otf');
     }
     
-.nav-link{
-    color: white;
+a{
+    font-family: lemon_milkBold ;
+    font-size: 16px;
+    color: #BC2C3D;
+    text-decoration: none;
 }
 .img3{
     position: absolute;
