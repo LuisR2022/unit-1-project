@@ -36,6 +36,12 @@ h3{
     height: 45px;
     width: 157px;
     color: red;
+    z-index:1;
+    display: flex;
+    justify-content: center;
+}
+.btn a{
+    z-index: 2;
 }
 .behind-button{
     border: 1px solid white;
@@ -44,6 +50,7 @@ h3{
     position: relative;
     top: -40px;
     right: -5px;
+    z-index:0;
 }
 .part2{
     background-color: grey;
@@ -152,12 +159,11 @@ form{
 
 .donation .btn{
     background-color: black;
-    z-index: 1;
     color: white;
 }
 
 .donation .behind-button{
-    z-index:0;
+    
     border: black 1px solid;
     
 }
