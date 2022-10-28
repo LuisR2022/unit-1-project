@@ -149,3 +149,15 @@ form{
     flex-direction: column;
     align-items: center;
 }
+
+.donation .btn{
+    background-color: black;
+    z-index: 1;
+    color: white;
+}
+
+.donation .behind-button{
+    z-index:0;
+    border: black 1px solid;
+    
+}
