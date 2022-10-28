@@ -10,6 +10,7 @@
     font-family: 'lemon_milkLight';
     src: url('lemon_milk/LEMONMILK-Light.otf');
     }
+    
 .nav-link{
     color: white;
 }
@@ -70,7 +71,7 @@ span{
     margin: 10%;
 }
 p{
-    color: white;
+   color: white;
    font-family: lemon_milkLight;
 }
 
@@ -81,7 +82,7 @@ p{
 }
 
 .red-text{
-    color:red;
+    color:#BC2C3D;
 }
 
 .piechart{
@@ -101,4 +102,50 @@ p{
 .chartheading{
     display: flex;
     flex-direction: column;
+}
+
+.space{
+    display: flex;
+    font-size: 3.5em;
+    justify-content: space-evenly;
+}
+
+.size{
+    font-size: 2em;
+    font-family: lemon_milkBold;
+}
+
+.bulletpoints p{
+    font-size: 0.6em;
+    display: flex;
+    align-items: center;
+}
+
+h5{
+    font-family: lemon_milkLight;
+    color: white;
+}
+
+.guntypes{
+    background-color: #BC2C3D;
+    display: flex;
+}
+
+.guntypes img{
+    width: 30%;
+    padding: 3em;
+}
+
+.donation{
+    background-color: #F8F3E6;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
