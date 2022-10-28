@@ -40,8 +40,13 @@ h3{
     display: flex;
     justify-content: center;
 }
+.btn:hover{
+     background-color: white;
+}
+
 .btn a{
     z-index: 2;
+    color: #BC2C3D;
 }
 .behind-button{
     border: 1px solid white;
@@ -52,6 +57,7 @@ h3{
     right: -5px;
     z-index:0;
 }
+
 .part2{
     background-color: grey;
     display: flex;
