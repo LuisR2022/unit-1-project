@@ -2,6 +2,10 @@
     margin-top: 120px;
 }
 
+.top {
+    margin-top: 3%;
+}
+
 .col {
     color: red;
 }
@@ -32,13 +36,16 @@ p {
 a {
     font-family: lemon_milkBold;
 }
+
 .storiesCover {
     max-width: 100%;
 }
-.cover{
+
+.cover {
     width: 100%;
 }
-.gridWrapper{
+
+.gridWrapper {
     padding: 5em;
     background-color: #BC2C3D;
 }
