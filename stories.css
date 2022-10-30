@@ -21,7 +21,7 @@
     src: url('lemon_milk/LEMONMILK-Light.otf');
 }
 
-h1 {
+h3 {
     font-family: lemon_milkBold
 }
 
@@ -31,4 +31,14 @@ p {
 
 a {
     font-family: lemon_milkBold;
+}
+.storiesCover {
+    max-width: 100%;
+}
+.cover{
+    width: 100%;
+}
+.gridWrapper{
+    padding: 5em;
+    background-color: #BC2C3D;
 }

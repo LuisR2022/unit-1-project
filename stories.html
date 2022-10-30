@@ -1,22 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <title>Gun violence</title>
-  <link rel="stylesheet" href="stories.css" type="text/css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gun Violence</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link href="stories.css" rel="stylesheet">
 </head>
 
-<body class="p-3 mb-2 bg-danger text-white">
+<body>
   <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
     <div class="container">
       <a href="#" class="navbar-brand"> <img src="Media/Logo2.svg" width="375" height"90" /></a>
-
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
         <span class="navbar-toggler-icon"></span>
       </button>
-
       <div class="collapse navbar-collapse" id="navmenu">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
@@ -32,29 +31,43 @@
       </div>
     </div>
   </nav>
-
-  <main>
-    <img src="Media/Buffalo-image.jpg" class="img-fluid rounded mx-auto d-block buffalo"></img>
-    <article class="badge p-3 mb-2 bg-dark text-white text-wrap fs-2">
-      <h3>Buffalo Shooting</h3>
-      <p >The Buffalo shooting occurred on May 14, 2022, at a local Supermarket where 10 lives of innocent people were put to an end and many more were injured by a White supremacist. The suspect has pleaded not guilty to any hate crimes they were accused of. Although the suspect pleaded <a href="https://www.reuters.com/world/us/buffalo-mass-shooting-suspect-be-arraigned-federal-hate-firearms-charges-2022-07-18/" class="text-danger" target="_blank">not guilty,</a> they are still being charged with multiple gun violations. Governor Hochul has been offering support to Family of those affected and to the community where the shooting occurred.</p>
-        <a href="https://www.ny.gov/resources-services-residents-impacted-buffalo-shooting" class="text-danger" target="_blank">Learn More</a>
-    </article>
-    <br>
-    <img src="Media/Subway-shooting-ray.webp" class="img-thumbnail rounded mx-auto d-block"></img>
-    <article class="badge p-3 mb-2 bg-dark text-white text-wrap fs-2">
-      <h3>New York Subway Shooting</h3>
-      <p>The New York Subway shooting occurred on April 12, 2022, at around 8:30 am. The suspect had used a <a href="https://www.nbcnewyork.com/news/local/live-updates-manhunt-for-nyc-subway-gunman-after-8-are-shot-in-brooklyn-attack/3642239/" class="text-danger" target="_blank">Smoke Canister</a> and started firing his gun, injuring 10 people. The suspect has been arrested and pleaded not guilty to any terrorist crime. The suspect's trial is not set for a few months, His trial is set to begin on February 27. Mayor Eric Adams has relased a <a href="https://www1.nyc.gov/office-of-the-mayor/news/200-22/transcript-mayor-eric-adams-on-subway-shooting-sunset-park-brooklyn" class="text-danger" target="_blank">Statment</a> statment following the shooting.</p>
-        <a href="https://www.nytimes.com/live/2022/04/12/nyregion/brooklyn-subway-shooting" class="text-danger" target="_blank">Learn More</a>
-    </article>
-    <img src="Media/st-louis-school-2.jpg" class="img-thumbnail rounded mx-auto d-block"></img>
-    <article class="badge p-3 mb-2 bg-dark text-white text-wrap fs-2">
-      <h3>St. Louis High School Shooting</h3>
-      <p >The St. Louis high school shooting occurred on October 24, 2022, during school hours. 2 people were killed and several were injured with the suspect also being killed while exchanging gunfire with authorities. The suspect has <a href="https://abcnews.go.com/US/hurt-shooting-st-louis-high-school-suspect-custody/story?id=92003996" class="text-danger" target="_blank">Repotedly</a> been carrying multiple magazines of ammunition and used an Ar-style weapon. Thankfully the security guards of the school became aware of the gun-man before he was able to cause more damage than what was originally done.</p>
-        <a href="https://www.nbcnews.com/news/us-news/two-students-injured-shooting-saint-louis-school-rcna53715" class="text-danger" target="_blank">Learn More</a>
-    </article>
-  </main>
-
+  <section class="storiesCover">
+    <img class="cover" src="Stories_Cover-01.jpg" />
+  </section>
+  <div class="gridWrapper">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="Media/Buffalo-image.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Buffalo Shooting</h5>
+            <p class="card-text">The Buffalo shooting occurred on May 14, 2022, at a local Supermarket where 10 lives of innocent people were put to an end and many more were injured by a White supremacist. The suspect has pleaded not guilty to any hate crimes they were accused of. Although the suspect pleaded <a href="https://www.reuters.com/world/us/buffalo-mass-shooting-suspect-be-arraigned-federal-hate-firearms-charges-2022-07-18/" class="text-danger" target="_blank">not guilty,</a> they are still being charged with multiple gun violations. Governor Hochul has been offering support to Family of those affected and to the community where the shooting occurred.</p>
+            <a href="https://www.ny.gov/resources-services-residents-impacted-buffalo-shooting" class="text-danger" target="_blank">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="Media/Subway-shooting-ray.webp" class="img-thumbnail rounded mx-auto d-block"></img>
+          <div class="card-body">
+            <h5 class="card-title">New York Subway Shooting</h5>
+            <p class="card-text">The New York Subway shooting occurred on April 12, 2022, at around 8:30 am. The suspect had used a <a href="https://www.nbcnewyork.com/news/local/live-updates-manhunt-for-nyc-subway-gunman-after-8-are-shot-in-brooklyn-attack/3642239/" class="text-danger" target="_blank">Smoke Canister</a> and started firing his gun, injuring 10 people. The suspect has been arrested and pleaded not guilty to any terrorist crime. The suspect's trial is not set for a few months, His trial is set to begin on February 27. Mayor Eric Adams has relased a <a href="https://www1.nyc.gov/office-of-the-mayor/news/200-22/transcript-mayor-eric-adams-on-subway-shooting-sunset-park-brooklyn" class="text-danger" target="_blank">Statment</a> statment following the shooting.</p>
+            <a href="https://www.nytimes.com/live/2022/04/12/nyregion/brooklyn-subway-shooting" class="text-danger" target="_blank">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="Media/st-louis-school-2.jpg" class="img-thumbnail rounded mx-auto d-block"></img>
+          <div class="card-body">
+            <h5 class="card-title">St.louis School Shooting</h5>
+            <p class="card-text">The St. Louis high school shooting occurred on October 24, 2022, during school hours. 2 people were killed and several were injured with the suspect also being killed while exchanging gunfire with authorities. The suspect has <a href="https://abcnews.go.com/US/hurt-shooting-st-louis-high-school-suspect-custody/story?id=92003996" class="text-danger" target="_blank">Repotedly</a> been carrying multiple magazines of ammunition and used an Ar-style weapon. Thankfully the security guards of the school became aware of the gun-man before he was able to cause more damage than what was originally done.</p>
+            <a href="https://www.nbcnews.com/news/us-news/two-students-injured-shooting-saint-louis-school-rcna53715" class="text-danger" target="_blank">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <footer>
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3" class="naviii">
       <div class="container bottom ">
@@ -70,17 +83,13 @@
           <a href="#" class="nav-link text-white bg-dark">Policy</a>
         </div>
         <div class="col text-white bg-dark">
-          <p class="fs-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-          sed diam nonummy nibh euismod tincidunt ut laoreet dolore
-          magna aliquam erat volutpat.
-          </p>
+          <p>Guns dont kill people, they make it easier. - <a href="http://www.picturequotes.com/anti-gun-quotes" class="text-danger" target="_blank">End Gun Violence</a></p>
         </div>
       </div>
-
     </nav>
   </footer>
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 
 </html>
+</body>
