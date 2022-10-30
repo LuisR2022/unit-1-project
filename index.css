@@ -36,8 +36,8 @@ h3{
 .btn{
     background-color: white;
     border-radius: 0px;
-    height: 45px;
-    width: 157px;
+    height: 3em;
+    width: 7.7em;
     color: red;
     z-index:1;
     display: flex;
@@ -53,11 +53,11 @@ h3{
 }
 .behind-button{
     border: 1px solid white;
-    height: 45px;
-    width: 157px;
+    height: 4em;
+    width:9.9em;
     position: relative;
-    top: -40px;
-    right: -5px;
+    top: -54px;
+    right: -6.3px;
     z-index:0;
 }
 
@@ -151,30 +151,6 @@ h5{
     padding: 3em;
 }
 
-.donation{
-    background-color: #F8F3E6;
-    padding: 3em;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-/*form{*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    align-items: center;*/
-/*}*/
-
-.donation .btn{
-    background-color: black;
-    color: white;
-}
-
-.donation .behind-button{
-    
-    border: black 1px solid;
-    
-}
 
 #mc-embedded-subscribe-form{
     background-color: #F8F3E6;
@@ -206,4 +182,12 @@ h5{
 
 .email{
     text-align: center;
+}
+
+.width-btn{
+    width: 7em;
+    height:3em;
+    border: 1px red solid;
+    top: -44px;
+    right: -2px;
 }
