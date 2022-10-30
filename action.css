@@ -10,7 +10,6 @@
     font-family: 'lemon_milkLight';
     src: url('lemon_milk/LEMONMILK-Light.otf');
     }
-
 .section_1{
     display: flex;
     width: 100%;
@@ -21,16 +20,13 @@
     margin-left: 5em;
     margin-top: 5em;
 }
-
 .stepsp {
     width: 80%;
 }
-
 .banGunsImg{
     width: 10%;
     margin-right: 5em;
 }
-
 .section_2{
     display: flex;
     justify-content: space-between;
@@ -38,29 +34,23 @@
     background-color: #F8F3E6;
     color: #BC2C3D;
 }
-
 .footsteps{
    width: 10%;
    margin-left: 5em;
 }
-
 .section_2_texts{
     width: 80%;
     margin-right: 5em;
     margin-top: 5em;
     padding-left: 10em;
 }
-
 h1{
     font-family: lemon_milkBold
 }
-
 p{
     font-family: lemon_milkregular;
     font-size: 18px;
-    
 }
-
 .btn{
     background-color: white;
     border-radius: 0px;
@@ -69,7 +59,6 @@ p{
     color: red;
     z-index: 0;
 }
-
 .button-behind{
     border: 1px solid white;
     height: 45px;
@@ -79,14 +68,12 @@ p{
     right: -5px;
     z-index: 1;
 }
-
 a{
     font-family: lemon_milkBold ;
     font-size: 16px;
     color: #BC2C3D;
     text-decoration: none;
 }
-
 .donation{
     background-color: #BC2C3D;
     padding: 3em;
@@ -95,7 +82,6 @@ a{
     align-items: center;
     color: white;
 }
-
 .btn{
     background-color: white;
     border-radius: 0px;
@@ -109,12 +95,10 @@ a{
 .btn:hover{
      background-color: white;
 }
-
 .btn a{
     z-index: 2;
     color: #BC2C3D;
 }
-
 .behind-button{
     border: 1px solid white;
     height: 45px;
@@ -123,4 +107,110 @@ a{
     top: -40px;
     right: -5px;
     z-index:0;
+}
+@media only screen and (max-width: 576px) {
+@font-face {
+    font-family: 'lemon_milkregular';
+    src: url('lemon_milk/LEMONMILK-Regular.otf');
+}
+@font-face {
+    font-family: 'lemon_milkBold';
+    src: url('lemon_milk/LEMONMILK-Bold.otf');
+    }
+@font-face {
+    font-family: 'lemon_milkLight';
+    src: url('lemon_milk/LEMONMILK-Light.otf');
+    }
+.section_1{
+    display: flex;
+    width: 100%;
+    background-color: #BC2C3D;
+    color: #F8F3E6;
+}
+.steps {
+    width: 80%;
+    margin: 5em auto;
+    padding: 0;
+    text-align: center;
+}
+.stepsp {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.banGunsImg{
+    display: none;
+    width: 10%;
+    margin-right: 5em;
+}
+.section_2{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #F8F3E6;
+    color: #BC2C3D;
+}
+.footsteps{
+    display: none;
+}
+.section_2_texts{
+    width: 80%;
+    margin: 5em auto;
+    padding: 0;
+    text-align: center;
+}
+h1{
+    font-family: lemon_milkBold
+}
+p{
+    font-family: lemon_milkregular;
+    font-size: 18px;
+}
+.btn{
+    background-color: white;
+    border-radius: 0px;
+    height: 45px;
+    width: 157px;
+    color: red;
+    z-index: 0;
+    margin-top: 2em;
+    margin-right: auto;
+    margin-left: auto;
+}
+.button-behind{
+    border: 1px solid white;
+    height: 45px;
+    width: 157px;
+    position: relative;
+    top: -40px;
+    right: -108px;
+    z-index: 1;
+}
+a{
+    font-family: lemon_milkBold ;
+    font-size: 16px;
+    color: #BC2C3D;
+    text-decoration: none;
+}
+.donation{
+    background-color: #BC2C3D;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.text-white {
+    font-family: lemon_milkLight;
+    font-size: 0.3em;
+    padding-right: 2em;
+}
+.red-text {
+    text-align: center;
+}
+.footerLogo{
+    width: 8em;
+    padding-right: 2em;
+    padding-left: 2em;
+}
 }
