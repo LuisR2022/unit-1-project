@@ -122,16 +122,19 @@ article p{
 .bulletpoints{
     display: flex;
     justify-content: space-between;
+    width: 80%;
 }
+
 
 .chartheading{
     display: flex;
     flex-direction: column;
+    width: 50%;
 }
 
 .space{
     display: flex;
-    font-size: 3.5em;
+
     justify-content: space-evenly;
 }
 
@@ -208,3 +211,49 @@ span h5 {
 
 
 
+@media only screen and (max-width: 576px) {
+    .img3{
+        display: none;
+    }
+    .xhespic{
+            display: none;
+    }
+    .bullet{
+        display: none;
+    }
+    .num{
+        display: none;
+    }
+    .guntypespic{
+        display: none;
+    }
+    
+    .first{
+       margin-top: 50%;
+            
+    }
+    .buttons{
+        display: flex;
+     justify-content: center;
+    }
+
+    .behind-button{
+    top: -54px;
+    right: -54.4px;
+    }
+    
+    .piechart{
+        display: none;
+    }
+    .part2{
+        width: 100%;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+    
+    }
+    article{
+        width: 100%;
+
+    }
+}
