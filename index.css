@@ -20,7 +20,8 @@ a{
 .img3{
     position: absolute;
     z-index: 0;
-    width: 65%;
+    width: 77%;
+    left: 20%;
 }
 h1{
     font-family:lemon_milkBold;
@@ -32,6 +33,7 @@ h3{
 }
 .xhespic{
     z-index: 1;
+    margin-top: 20%;
 }
 .btn{
     background-color: white;
@@ -62,7 +64,7 @@ h3{
 }
 
 .part2{
-    background-color: grey;
+    background-color: #231f20;
     display: flex;
     flex-direction: column;
 }
@@ -91,9 +93,17 @@ p{
 }
 
 .chart{
-    background-color: white;
+    background-color: #F8F3E6;
     width: 100%;
-   
+}
+
+.num1{
+    width: 13%;
+    margin-right: 6.9em;
+}
+
+article p{
+    font-size: 0.6em;
 }
 
 .red-text{
@@ -101,7 +111,7 @@ p{
 }
 
 .piechart{
-    width: 35%;
+    width: 47%;
 }
 
 .bullet{
@@ -144,11 +154,22 @@ h5{
 .guntypes{
     background-color: #BC2C3D;
     display: flex;
+    flex-direction: column;
+}
+
+span h5 {
+    width: 70%;
+    padding: 3em;
+}
+.guntypes h1{
+      width: 70%;  
+      text-align: center;
+      margin-top: 2em;
 }
 
 .guntypes img{
     width: 30%;
-    padding: 3em;
+    padding-right: 3em;
 }
 
 
@@ -183,14 +204,6 @@ h5{
 
 .email{
     text-align: center;
-}
-
-.width-btn{
-    width: 7em;
-    height:3em;
-    border: 1px red solid;
-    top: -44px;
-    right: -2px;
 }
 
 
