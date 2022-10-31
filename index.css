@@ -259,6 +259,38 @@ span h5 {
     }
     article{
         width: 100%;
-
+          text-align: center;
+    }
+    .causes h1{
+        text-align: center;
+        margin-top: 10%;
+    }
+    .chart h1{
+        text-align: center;
+        padding-top: 7%;
+    }
+  
+    .chartheading{
+         margin-left: 14%;
+        width: 70%;
+        text-align: center;
+    }
+    .bulletpoints{
+        width: 70%;
+         margin-left: 14%;
+        text-align: center;
+    }
+    .guntypes h1{
+      width: 70%;  
+      text-align: center;
+      margin-top: 2em;
+      margin-left: 14%;
+}
+    
+    .guntypes h5{
+        justify-content: center;
+        text-align: center;
+        padding: 0;
+        margin-left: 14%;
     }
 }
