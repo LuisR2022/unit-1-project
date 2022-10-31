@@ -68,6 +68,10 @@ h3{
     display: flex;
     flex-direction: column;
 }
+
+.btn:hover{
+     background-color: white;
+}
 .causes{
     width:60%;
     align-self: center;
@@ -77,6 +81,7 @@ article{
     flex-direction: column;
     width: 70%;
 }
+
 .num{
     width: 15%;
     margin-right: 10%;

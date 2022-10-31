@@ -84,7 +84,8 @@ p {
 
 a {
     font-family: lemon_milkBold;
-}h3 {
+}
+h3 {
     font-family: lemon_milkBold
 }
 
@@ -113,9 +114,7 @@ a {
     display: flex;
     justify-content: center;
 }
-.btn:hover{
-     background-color: white;
-}
+
 .btn a{
     z-index: 2;
     color: #BC2C3D;
@@ -128,6 +127,24 @@ a {
     top: -40px;
     right: -5px;
     z-index:0;
+}
+.btn:hover{
+     background-color: white;
+}
+.color{
+    background-color: black;
+    color: white;
+    z-index:1;
+}
+.color2{
+    border: black solid 1px;
+    z-index:0;
+}
+.color a{
+    z-index:2;
+}
+color:hover{
+    background-color: white;
 }
 @media only screen and (max-width: 576px) {
 @font-face {
@@ -229,9 +246,5 @@ a{
 .red-text {
     text-align: center;
 }
-.footerLogo{
-    width: 8em;
-    padding-right: 2em;
-    padding-left: 2em;
-}
+
 }
