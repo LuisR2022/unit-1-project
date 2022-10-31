@@ -74,6 +74,27 @@ a{
     color: #BC2C3D;
     text-decoration: none;
 }
+h3 {
+    font-family: lemon_milkBold
+}
+
+p {
+    font-family: lemon_milkregular;
+}
+
+a {
+    font-family: lemon_milkBold;
+}h3 {
+    font-family: lemon_milkBold
+}
+
+p {
+    font-family: lemon_milkregular;
+}
+
+a {
+    font-family: lemon_milkBold;
+}
 .donation{
     background-color: #BC2C3D;
     padding: 3em;
