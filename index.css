@@ -76,6 +76,9 @@ h3{
     width:60%;
     align-self: center;
 }
+.causes-title{
+    text-align: center;
+}
 article{
     display: flex;
     flex-direction: column;
@@ -104,7 +107,7 @@ p{
 
 .num1{
     width: 13%;
-    margin-right: 6.9em;
+    margin-right: 5.9em;
 }
 
 article p{
