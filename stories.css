@@ -1,9 +1,9 @@
 .buffalo {
-    margin-top: 120px;
+    margin-top: 620px;
 }
 
 .top {
-    margin-top: 3%;
+    margin-top: 10%;
 }
 
 .col {
@@ -48,4 +48,7 @@ a {
 .gridWrapper {
     padding: 5em;
     background-color: #BC2C3D;
+}
+.card{
+    margin-top: 2%;
 }
