@@ -82,20 +82,10 @@ p {
     font-family: lemon_milkregular;
 }
 
-a {
-    font-family: lemon_milkBold;
-}
 h3 {
     font-family: lemon_milkBold
 }
 
-p {
-    font-family: lemon_milkregular;
-}
-
-a {
-    font-family: lemon_milkBold;
-}
 .donation{
     background-color: #BC2C3D;
     padding: 3em;
@@ -267,5 +257,15 @@ a{
 .move{
     top: -40px;
     right: -77px;
+}
+.yo a{
+    font-size: 16px;
+    font-family: lemon_milkBold;
+}
+.yo p{
+    font-size: 16px;
+}
+.naviii a{
+    padding: 0;
 }
 }
