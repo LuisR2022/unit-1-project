@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'lemon_milkregular';
+    src: url('lemon_milk/LEMONMILK-Regular.otf');
+}
+@font-face {
+    font-family: 'lemon_milkBold';
+    src: url('lemon_milk/LEMONMILK-Bold.otf');
+    }
+@font-face {
+    font-family: 'lemon_milkLight';
+    src: url('lemon_milk/LEMONMILK-Light.otf');
+    }
+body{
+    background-color: #BC2C3D;
+    height: 100vh;
+}
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    background-color: #F8F3E6;
+    width: 50%;
+    padding: 7em;
+    text-align: center;
+    margin-top: 14%;
+       display: flex;
+       flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    background-color: #BC2C3D;
+    border-radius: 0px;
+    height: 3em;
+    width: 7.7em;
+    color: red;
+    z-index:1;
+    display: flex;
+    justify-content: center;
+}
+.btn a{
+    font-family: lemon_milkBold;
+    text-align: center;
+    color: #F8F3E6;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: #F8F3E6;
+}
+
+a{
+    font-family: lemon_milkregular;
+}
+
+p{
+    font-family: lemon_milkLight;
+}
+
+h1{
+    font-family: lemon_milkBold;
+}
+
+@media only screen and (max-width: 576px) {
+    body{
+    background-color: #BC2C3D;
+    height: 100vh;
+}
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    background-color: #F8F3E6;
+    width: 50%;
+    padding: 7em;
+    text-align: center;
+    margin-top: 9%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    background-color: #BC2C3D;
+    border-radius: 0px;
+    height: 3em;
+    width: 7.7em;
+    color: red;
+    z-index:1;
+    display: flex;
+    justify-content: center;
+}
+.btn a{
+    font-family: lemon_milkBold;
+    text-align: center;
+    color: #F8F3E6;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color: #F8F3E6;
+}
+
+a{
+    font-family: lemon_milkregular;
+}
+
+p{
+    font-family: lemon_milkLight;
+}
+
+h1{
+    font-family: lemon_milkBold;
+}
+}
