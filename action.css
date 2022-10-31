@@ -143,9 +143,10 @@ a {
 .color a{
     z-index:2;
 }
-color:hover{
-    background-color: white;
+.color:hover{
+    background-color: black;
 }
+
 @media only screen and (max-width: 576px) {
 @font-face {
     font-family: 'lemon_milkregular';
@@ -247,4 +248,24 @@ a{
     text-align: center;
 }
 
+.color{
+    background-color: black;
+    color: white;
+    z-index:1;
+}
+.color2{
+    border: black solid 1px;
+    z-index:0;
+}
+.color a{
+    z-index:2;
+}
+.color:hover{
+    background-color: black;
+}
+
+.move{
+    top: -40px;
+    right: -77px;
+}
 }
